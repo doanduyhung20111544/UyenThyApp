@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="vi-VN" />
+  <Languages xmlns="">
+    <Language code="vi-VN" />
+    <Language code="vi" />
+  </Languages>
+  <App xmlns="" ProductID="{940c11f0-5e34-4237-a128-f5c2b7ee96ac}" Title="Vào Bếp Cùng Uyên Thy" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="YoutubeApp author" Description="Show Bếp nhà ta nấu&#xD;&#xA;" Publisher="YoutubeApp" PublisherID="{ad1d48b4-82a0-484d-854b-e0004713318a}">
+    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
+      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+      <Capability Name="ID_CAP_PHONEDIALER" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="YoutubeAppToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\TileSmall159.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\TileMedium.png</BackgroundImageURI>
+          <Title></Title>
+          <BackContent></BackContent>
+          <BackBackgroundImageURI IsRelative="true" IsResource="false"></BackBackgroundImageURI>
+          <BackTitle></BackTitle>
+          <DeviceLockImageURI IsRelative="true" IsResource="false"></DeviceLockImageURI>
+          <HasLarge>false</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
+<!-- WPSDK Version 8.0.9900 -->
